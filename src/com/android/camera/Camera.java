@@ -117,7 +117,7 @@ public class Camera extends ActivityBase implements FocusManager.Listener,
     private static final int ZOOM_STOPPING = 2;
 
     private int mZoomState = ZOOM_STOPPED;
-    private boolean mSmoothZoomSupported = true;
+    private boolean mSmoothZoomSupported = false;
     private int mZoomValue;  // The current zoom value.
     private int mZoomMax;
     private int mTargetZoomValue;
@@ -146,7 +146,7 @@ public class Camera extends ActivityBase implements FocusManager.Listener,
     private GestureDetector mPopupGestureDetector;
     private boolean mOpenCameraFail = false;
     private boolean mCameraDisabled = false;
-    private boolean mFaceDetectionStarted = true;
+    private boolean mFaceDetectionStarted = false;
 
     private View mPreviewPanel;  // The container of PreviewFrameLayout.
     private PreviewFrameLayout mPreviewFrameLayout;
