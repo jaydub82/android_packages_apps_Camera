@@ -99,6 +99,10 @@
     <string name="pref_camera_power_shutter_title">Power shutter</string>
     <string name="pref_camera_power_shutter_default">Off</string>
 
+	<!-- More Settings screen, force preview title -->
+	<string name="pref_camera_force_preview_title">Force preview</string>
+	<string name="pref_camera_force_preview_default">off</string>
+
     <!-- More Settings screen, record location title text -->
     <string name="pref_camera_recordlocation_title">Store location</string>
     <string name="pref_camera_recordlocation_default" translatable="false">none</string>
